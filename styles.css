@@ -1,0 +1,57 @@
+body {
+  padding-top: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 900px;
+  height: 560px;
+  margin: auto;
+  padding: 0 60px;
+}
+
+#title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.subtitle {
+  text-align: center;
+  color: darkgray;
+}
+
+.dot {
+  stroke: #000;
+  opacity: 0.5;
+}
+
+.dot:hover {
+  opacity: 1;
+}
+
+.legend {
+  font-size: 12px;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px 15px;
+  font-size: 12px;
+  background: lightgray;
+  border: 0;
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.x-axis-label,
+.y-axis-label {
+  font-size: 12px;
+}
+
+.credit {
+  text-align: center;
+  font-size: 11px;
+  color: grey;
+}
